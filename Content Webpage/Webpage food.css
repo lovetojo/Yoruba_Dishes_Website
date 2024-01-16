@@ -1,0 +1,235 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(53, 30, 17);
+    color: rgb(250, 230, 223);
+
+ } 
+ nav{
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   color: rgb(250, 230, 223);
+   padding: 10px;
+   box-shadow: 0px 4px 7px 4px rgb(24, 24, 24);
+   position: fixed;
+   width: 100%;
+   top: 0%;
+
+ } 
+ nav ul a{
+
+   text-decoration: none;
+   color: rgb(250, 230, 223);
+   margin-inline: 30px;
+ }
+nav button{
+    padding: 8px;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+nav button:hover{
+    border: 3px solid rgb(241, 190, 172);
+    background-color: orangered;
+    cursor: pointer;
+ }
+  nav ul{
+   margin-right: 33px;
+
+  }
+  .logo{
+
+   margin-left: 22px;
+  }
+  .logo h1{
+   position: absolute;
+   top: -8px;
+   font-size: 33px;
+   font-family: 'Courgette', cursive;
+   color: orangered;
+   border-radius: 3px;
+   border-bottom: 4px solid red;
+   border-bottom-right-radius: 22px;
+
+  }
+  .main{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 175px;
+  }
+  .main .mainText h1{
+font-size: 47px;
+  }
+
+  .mainText h2{
+   font-size: 33px;
+   color: rgb(252, 82, 60);
+     }
+     .mainText p{
+      color: rgb(241, 190, 172);
+        }
+   .mainText button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+   }   
+   .mainText button:hover{
+      border: 3px solid rgb(241, 190, 172);
+      background-color: orangered;
+      cursor: pointer;
+   }
+.main img{
+   width: 38%;
+}
+
+.head{
+   text-align: center;
+   margin-top: 25px;
+   padding: 75px;
+}
+.head span{
+   color: rgb(252, 82, 60);
+}
+.card{
+   display: flex;
+   justify-content: center;
+   margin-top: 44px;
+
+}
+.card .crd{
+   width: 300px;
+   margin-inline: 22px;
+   background-color: rgb(243, 198, 173);
+   color: black;
+}
+.foodText button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.foodText button:hover{
+    border: 3px solid rgb(241, 190, 172);
+    background-color: orangered;
+    cursor: pointer;
+ }
+
+.crd .foodText{
+   padding: 22px;
+}
+.crd:hover{
+   background-color: rgb(101, 101, 101);
+   color: white;
+}
+
+.crd img{
+   width: 100%;
+}
+
+.order{
+   display: flex;
+   justify-content: center;
+
+}
+.orderText i{
+   font-size: 187px;
+   color: red;
+
+}
+.orderText i:hover{
+   color: rgb(53, 158, 249);
+}
+.orderText button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.orderText button:hover{
+    border: 3px solid rgb(241, 190, 172);
+    background-color: orangered;
+    cursor: pointer;
+ }
+.orderText{
+   margin-inline: 100px;
+}
+
+.footer{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(243, 198, 173);
+   color: black;
+   padding: 55px;
+   margin-top: 84px;
+}
+
+/* login */
+.loginPage{
+   display: none;
+   width: 190px;
+   padding: 22px;
+   background-color: #f7cebc;
+   position: absolute;
+   margin-left: 81%;
+   top: 16%;
+   text-align: center;
+
+}
+.loginPage input{
+   width: 170px;
+   padding: 4px;
+   border: 2px solid orangered;
+   outline: none;
+   margin-top: 11px;
+
+}
+.loginPage button{
+   width: 100px;
+   height: 30px;
+   background-color: rgb(221, 77, 20);
+   color: white;
+   font-size:20px;
+   border: none;
+   cursor: pointer;
+   margin-top: 13px;
+}
+
+/* tracking */
+
+.tracking{
+
+   display: flex;
+   justify-content: space-around;
+   margin-top: 175px;
+   display: none;
+}
+.tracking img{
+   width: 50%;
+}
